@@ -14,6 +14,11 @@
 		25AC88EA1C958585008414B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25AC88E51C958585008414B9 /* Info.plist */; };
 		25AC88EB1C958585008414B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC88E61C958585008414B9 /* main.m */; };
 		25AC88EF1C9585F6008414B9 /* DMAppFrameTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC88EE1C9585F6008414B9 /* DMAppFrameTabBarController.m */; };
+		25AC88FA1C95B012008414B9 /* DMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC88F91C95B012008414B9 /* DMBaseNavigationController.m */; };
+		25AC891A1C95B637008414B9 /* TestViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89101C95B637008414B9 /* TestViewController_1.m */; };
+		25AC891B1C95B637008414B9 /* TestViewController_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89131C95B637008414B9 /* TestViewController_2.m */; };
+		25AC891C1C95B637008414B9 /* TestViewController_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89161C95B637008414B9 /* TestViewController_3.m */; };
+		25AC891D1C95B637008414B9 /* TestViewController_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89191C95B637008414B9 /* TestViewController_4.m */; };
 		77BEA9A640AF8978D7F4D961 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 803FC8DF252B40785BBDD780 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +54,17 @@
 		25AC88E61C958585008414B9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DAMEIJILIN/main.m; sourceTree = "<group>"; };
 		25AC88ED1C9585F6008414B9 /* DMAppFrameTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAppFrameTabBarController.h; sourceTree = "<group>"; };
 		25AC88EE1C9585F6008414B9 /* DMAppFrameTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAppFrameTabBarController.m; sourceTree = "<group>"; };
+		25AC88F81C95B012008414B9 /* DMBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseNavigationController.h; sourceTree = "<group>"; };
+		25AC88F91C95B012008414B9 /* DMBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseNavigationController.m; sourceTree = "<group>"; };
+		25AC890F1C95B637008414B9 /* TestViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_1.h; sourceTree = "<group>"; };
+		25AC89101C95B637008414B9 /* TestViewController_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_1.m; sourceTree = "<group>"; };
+		25AC89121C95B637008414B9 /* TestViewController_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_2.h; sourceTree = "<group>"; };
+		25AC89131C95B637008414B9 /* TestViewController_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_2.m; sourceTree = "<group>"; };
+		25AC89151C95B637008414B9 /* TestViewController_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_3.h; sourceTree = "<group>"; };
+		25AC89161C95B637008414B9 /* TestViewController_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_3.m; sourceTree = "<group>"; };
+		25AC89181C95B637008414B9 /* TestViewController_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_4.h; sourceTree = "<group>"; };
+		25AC89191C95B637008414B9 /* TestViewController_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_4.m; sourceTree = "<group>"; };
+		25AC891F1C95B653008414B9 /* GlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefines.h; sourceTree = "<group>"; };
 		54D5E8507FA78099AA975AFB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		803FC8DF252B40785BBDD780 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13DC53CD17D5EFAD7F5776A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +154,13 @@
 			children = (
 				25AC88ED1C9585F6008414B9 /* DMAppFrameTabBarController.h */,
 				25AC88EE1C9585F6008414B9 /* DMAppFrameTabBarController.m */,
+				25AC88F81C95B012008414B9 /* DMBaseNavigationController.h */,
+				25AC88F91C95B012008414B9 /* DMBaseNavigationController.m */,
+				25AC891E1C95B653008414B9 /* Tools */,
+				25AC890E1C95B637008414B9 /* TestPart_1 */,
+				25AC89111C95B637008414B9 /* TestPart_2 */,
+				25AC89141C95B637008414B9 /* TestPart_3 */,
+				25AC89171C95B637008414B9 /* TestPart_4 */,
 			);
 			name = Classes;
 			path = DAMEIJILIN/Classes;
@@ -160,6 +183,51 @@
 			);
 			path = Resources;
 			sourceTree = "<group>";
+		};
+		25AC890E1C95B637008414B9 /* TestPart_1 */ = {
+			isa = PBXGroup;
+			children = (
+				25AC890F1C95B637008414B9 /* TestViewController_1.h */,
+				25AC89101C95B637008414B9 /* TestViewController_1.m */,
+			);
+			path = TestPart_1;
+			sourceTree = "<group>";
+		};
+		25AC89111C95B637008414B9 /* TestPart_2 */ = {
+			isa = PBXGroup;
+			children = (
+				25AC89121C95B637008414B9 /* TestViewController_2.h */,
+				25AC89131C95B637008414B9 /* TestViewController_2.m */,
+			);
+			path = TestPart_2;
+			sourceTree = "<group>";
+		};
+		25AC89141C95B637008414B9 /* TestPart_3 */ = {
+			isa = PBXGroup;
+			children = (
+				25AC89151C95B637008414B9 /* TestViewController_3.h */,
+				25AC89161C95B637008414B9 /* TestViewController_3.m */,
+			);
+			path = TestPart_3;
+			sourceTree = "<group>";
+		};
+		25AC89171C95B637008414B9 /* TestPart_4 */ = {
+			isa = PBXGroup;
+			children = (
+				25AC89181C95B637008414B9 /* TestViewController_4.h */,
+				25AC89191C95B637008414B9 /* TestViewController_4.m */,
+			);
+			path = TestPart_4;
+			sourceTree = "<group>";
+		};
+		25AC891E1C95B653008414B9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				25AC891F1C95B653008414B9 /* GlobalDefines.h */,
+			);
+			name = Tools;
+			path = DAMEIJILIN/Classes/Tools;
+			sourceTree = SOURCE_ROOT;
 		};
 		FF280F737919FFFD7EBC5037 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -350,8 +418,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				25AC88EF1C9585F6008414B9 /* DMAppFrameTabBarController.m in Sources */,
+				25AC891A1C95B637008414B9 /* TestViewController_1.m in Sources */,
 				25AC88EB1C958585008414B9 /* main.m in Sources */,
+				25AC891D1C95B637008414B9 /* TestViewController_4.m in Sources */,
 				25AC88E71C958585008414B9 /* AppDelegate.m in Sources */,
+				25AC88FA1C95B012008414B9 /* DMBaseNavigationController.m in Sources */,
+				25AC891C1C95B637008414B9 /* TestViewController_3.m in Sources */,
+				25AC891B1C95B637008414B9 /* TestViewController_2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

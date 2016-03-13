@@ -7,6 +7,13 @@
 //
 
 #import "DMAppFrameTabBarController.h"
+#import "DMBaseNavigationController.h"
+#import "GlobalDefines.h"
+
+#define kClassKey   @"rootVCClassString"
+#define kTitleKey   @"title"
+#define kImgKey     @"imageName"
+#define kSelImgKey  @"selectedImageName"
 
 @interface DMAppFrameTabBarController ()
 
@@ -17,21 +24,40 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(150.0, 120.0, 200.0, 50.0)];
-    //设置显示文字
-    label1.text = @"我爱吴建！";
+    NSArray *childItemsArray = @[
+                                 @{kClassKey  : @"TestViewController_1",
+                                   kTitleKey  : @"要闻",
+                                   kImgKey    : @"tabbar_mainframe",
+                                   kSelImgKey : @"tabbar_mainframeHL"},
+                                 
+                                 @{kClassKey  : @"TestViewController_2",
+                                   kTitleKey  : @"供求",
+                                   kImgKey    : @"tabbar_contacts",
+                                   kSelImgKey : @"tabbar_contactsHL"},
+                                 
+                                 @{kClassKey  : @"TestViewController_3",
+                                   kTitleKey  : @"消息",
+                                   kImgKey    : @"tabbar_discover",
+                                   kSelImgKey : @"tabbar_discoverHL"},
+                                 
+                                 @{kClassKey  : @"TestViewController_4",
+                                   kTitleKey  : @"我",
+                                   kImgKey    : @"tabbar_me",
+                                   kSelImgKey : @"tabbar_meHL"} ];
     
-    //设置字体:粗体，正常的是 SystemFontOfSize
-    label1.font = [UIFont boldSystemFontOfSize:20];
+    [childItemsArray enumerateObjectsUsingBlock:^(NSDictionary *dict, NSUInteger idx, BOOL *stop) {
+        UIViewController *vc = [NSClassFromString(dict[kClassKey]) new];
+        //vc.title = dict[kTitleKey];
+
+        DMBaseNavigationController *nav = [[DMBaseNavigationController alloc] initWithRootViewController:vc];
+        UITabBarItem *item = nav.tabBarItem;
+        item.title = dict[kTitleKey];
+        item.image = [UIImage imageNamed:dict[kImgKey]];
+        item.selectedImage = [[UIImage imageNamed:dict[kSelImgKey]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        [item setTitleTextAttributes:@{NSForegroundColorAttributeName : Global_tintColor} forState:UIControlStateSelected];
+        [self addChildViewController:nav];
+    }];
     
-    //设置文字颜色
-    label1.textColor = [UIColor orangeColor];
-    
-    //设置文字位置
-    label1.textAlignment = UIBaselineAdjustmentAlignCenters;
-    
-    
-    [self.view addSubview:label1];
      
 }
 
