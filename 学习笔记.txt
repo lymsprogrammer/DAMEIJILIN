@@ -1,0 +1,14 @@
+--查看ruby源是否存在
+$gem sources -l    
+
+--首先移除本机带的ruby
+$gem sources --remove https://rubygems.org/
+
+--新增taobao实时镜像源头
+$gem sources -a https:ruby.taobao.org/
+
+--安装cocoapods
+sudo gem install cocoapods  
+
+--注意事项
+http://www.cnblogs.com/wayne23/p/3912882.html
