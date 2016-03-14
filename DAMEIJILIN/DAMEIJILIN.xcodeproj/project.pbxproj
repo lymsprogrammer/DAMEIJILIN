@@ -19,6 +19,25 @@
 		25AC891B1C95B637008414B9 /* TestViewController_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89131C95B637008414B9 /* TestViewController_2.m */; };
 		25AC891C1C95B637008414B9 /* TestViewController_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89161C95B637008414B9 /* TestViewController_3.m */; };
 		25AC891D1C95B637008414B9 /* TestViewController_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AC89191C95B637008414B9 /* TestViewController_4.m */; };
+		4E22642E1C96678A00E3BD45 /* XYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22642D1C96678A00E3BD45 /* XYString.m */; };
+		4E2264341C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264311C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		4E2264351C9667C400E3BD45 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264331C9667C400E3BD45 /* UIView+SDAutoLayout.m */; };
+		4E22644A1C966B1800E3BD45 /* Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264381C966B1800E3BD45 /* Ads.m */; };
+		4E22644B1C966B1800E3BD45 /* Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22643A1C966B1800E3BD45 /* Editor.m */; };
+		4E22644C1C966B1800E3BD45 /* Imgextra.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22643C1C966B1800E3BD45 /* Imgextra.m */; };
+		4E22644D1C966B1800E3BD45 /* ThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22643E1C966B1800E3BD45 /* ThreeModel.m */; };
+		4E22644E1C966B1800E3BD45 /* ThreeBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264411C966B1800E3BD45 /* ThreeBaseCell.m */; };
+		4E22644F1C966B1800E3BD45 /* ThreeFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264431C966B1800E3BD45 /* ThreeFirstCell.m */; };
+		4E2264501C966B1800E3BD45 /* ThreeFourthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264451C966B1800E3BD45 /* ThreeFourthCell.m */; };
+		4E2264511C966B1800E3BD45 /* ThreeSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264471C966B1800E3BD45 /* ThreeSecondCell.m */; };
+		4E2264521C966B1800E3BD45 /* ThreeThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264491C966B1800E3BD45 /* ThreeThirdCell.m */; };
+		4E2264631C966BDB00E3BD45 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264561C966BDB00E3BD45 /* TAAbstractDotView.m */; };
+		4E2264641C966BDB00E3BD45 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264581C966BDB00E3BD45 /* TAAnimatedDotView.m */; };
+		4E2264651C966BDB00E3BD45 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22645A1C966BDB00E3BD45 /* TADotView.m */; };
+		4E2264661C966BDB00E3BD45 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22645C1C966BDB00E3BD45 /* TAPageControl.m */; };
+		4E2264671C966BDB00E3BD45 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E22645E1C966BDB00E3BD45 /* SDCollectionViewCell.m */; };
+		4E2264681C966BDB00E3BD45 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264601C966BDB00E3BD45 /* SDCycleScrollView.m */; };
+		4E2264691C966BDB00E3BD45 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2264621C966BDB00E3BD45 /* UIView+SDExtension.m */; };
 		77BEA9A640AF8978D7F4D961 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 803FC8DF252B40785BBDD780 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +84,44 @@
 		25AC89181C95B637008414B9 /* TestViewController_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_4.h; sourceTree = "<group>"; };
 		25AC89191C95B637008414B9 /* TestViewController_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_4.m; sourceTree = "<group>"; };
 		25AC891F1C95B653008414B9 /* GlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefines.h; sourceTree = "<group>"; };
+		4E22642C1C96678A00E3BD45 /* XYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYString.h; sourceTree = "<group>"; };
+		4E22642D1C96678A00E3BD45 /* XYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYString.m; sourceTree = "<group>"; };
+		4E2264301C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		4E2264311C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		4E2264321C9667C400E3BD45 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		4E2264331C9667C400E3BD45 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		4E2264371C966B1800E3BD45 /* Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ads.h; sourceTree = "<group>"; };
+		4E2264381C966B1800E3BD45 /* Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ads.m; sourceTree = "<group>"; };
+		4E2264391C966B1800E3BD45 /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Editor.h; sourceTree = "<group>"; };
+		4E22643A1C966B1800E3BD45 /* Editor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Editor.m; sourceTree = "<group>"; };
+		4E22643B1C966B1800E3BD45 /* Imgextra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imgextra.h; sourceTree = "<group>"; };
+		4E22643C1C966B1800E3BD45 /* Imgextra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imgextra.m; sourceTree = "<group>"; };
+		4E22643D1C966B1800E3BD45 /* ThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeModel.h; sourceTree = "<group>"; };
+		4E22643E1C966B1800E3BD45 /* ThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeModel.m; sourceTree = "<group>"; };
+		4E2264401C966B1800E3BD45 /* ThreeBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeBaseCell.h; sourceTree = "<group>"; };
+		4E2264411C966B1800E3BD45 /* ThreeBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeBaseCell.m; sourceTree = "<group>"; };
+		4E2264421C966B1800E3BD45 /* ThreeFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeFirstCell.h; sourceTree = "<group>"; };
+		4E2264431C966B1800E3BD45 /* ThreeFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeFirstCell.m; sourceTree = "<group>"; };
+		4E2264441C966B1800E3BD45 /* ThreeFourthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeFourthCell.h; sourceTree = "<group>"; };
+		4E2264451C966B1800E3BD45 /* ThreeFourthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeFourthCell.m; sourceTree = "<group>"; };
+		4E2264461C966B1800E3BD45 /* ThreeSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeSecondCell.h; sourceTree = "<group>"; };
+		4E2264471C966B1800E3BD45 /* ThreeSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSecondCell.m; sourceTree = "<group>"; };
+		4E2264481C966B1800E3BD45 /* ThreeThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeThirdCell.h; sourceTree = "<group>"; };
+		4E2264491C966B1800E3BD45 /* ThreeThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeThirdCell.m; sourceTree = "<group>"; };
+		4E2264551C966BDB00E3BD45 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		4E2264561C966BDB00E3BD45 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		4E2264571C966BDB00E3BD45 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		4E2264581C966BDB00E3BD45 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		4E2264591C966BDB00E3BD45 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		4E22645A1C966BDB00E3BD45 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		4E22645B1C966BDB00E3BD45 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		4E22645C1C966BDB00E3BD45 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		4E22645D1C966BDB00E3BD45 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		4E22645E1C966BDB00E3BD45 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		4E22645F1C966BDB00E3BD45 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		4E2264601C966BDB00E3BD45 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		4E2264611C966BDB00E3BD45 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		4E2264621C966BDB00E3BD45 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		54D5E8507FA78099AA975AFB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		803FC8DF252B40785BBDD780 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13DC53CD17D5EFAD7F5776A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				25AC88EC1C9585F6008414B9 /* Classes */,
-				25AC88DF1C958585008414B9 /* AppDelegate.h */,
 				25AC88E01C958585008414B9 /* AppDelegate.m */,
+				25AC88DF1C958585008414B9 /* AppDelegate.h */,
 				25AC88E61C958585008414B9 /* main.m */,
 				25AC88F01C958628008414B9 /* Others */,
 				25AC88BF1C95580B008414B9 /* DAMEIJILINTests */,
@@ -157,6 +214,7 @@
 				25AC88F81C95B012008414B9 /* DMBaseNavigationController.h */,
 				25AC88F91C95B012008414B9 /* DMBaseNavigationController.m */,
 				25AC891E1C95B653008414B9 /* Tools */,
+				4E22642A1C96678A00E3BD45 /* Lib */,
 				25AC890E1C95B637008414B9 /* TestPart_1 */,
 				25AC89111C95B637008414B9 /* TestPart_2 */,
 				25AC89141C95B637008414B9 /* TestPart_3 */,
@@ -187,6 +245,8 @@
 		25AC890E1C95B637008414B9 /* TestPart_1 */ = {
 			isa = PBXGroup;
 			children = (
+				4E2264361C966B1800E3BD45 /* model */,
+				4E22643F1C966B1800E3BD45 /* view */,
 				25AC890F1C95B637008414B9 /* TestViewController_1.h */,
 				25AC89101C95B637008414B9 /* TestViewController_1.m */,
 			);
@@ -228,6 +288,99 @@
 			name = Tools;
 			path = DAMEIJILIN/Classes/Tools;
 			sourceTree = SOURCE_ROOT;
+		};
+		4E22642A1C96678A00E3BD45 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4E2264531C966BDB00E3BD45 /* SDCycleScrollView */,
+				4E22642F1C9667C400E3BD45 /* SDAutoLayout */,
+				4E22642B1C96678A00E3BD45 /* XYString */,
+			);
+			name = Lib;
+			path = DAMEIJILIN/Classes/Lib;
+			sourceTree = SOURCE_ROOT;
+		};
+		4E22642B1C96678A00E3BD45 /* XYString */ = {
+			isa = PBXGroup;
+			children = (
+				4E22642C1C96678A00E3BD45 /* XYString.h */,
+				4E22642D1C96678A00E3BD45 /* XYString.m */,
+			);
+			path = XYString;
+			sourceTree = "<group>";
+		};
+		4E22642F1C9667C400E3BD45 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4E2264301C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.h */,
+				4E2264311C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.m */,
+				4E2264321C9667C400E3BD45 /* UIView+SDAutoLayout.h */,
+				4E2264331C9667C400E3BD45 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		4E2264361C966B1800E3BD45 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4E2264371C966B1800E3BD45 /* Ads.h */,
+				4E2264381C966B1800E3BD45 /* Ads.m */,
+				4E2264391C966B1800E3BD45 /* Editor.h */,
+				4E22643A1C966B1800E3BD45 /* Editor.m */,
+				4E22643B1C966B1800E3BD45 /* Imgextra.h */,
+				4E22643C1C966B1800E3BD45 /* Imgextra.m */,
+				4E22643D1C966B1800E3BD45 /* ThreeModel.h */,
+				4E22643E1C966B1800E3BD45 /* ThreeModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E22643F1C966B1800E3BD45 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E2264401C966B1800E3BD45 /* ThreeBaseCell.h */,
+				4E2264411C966B1800E3BD45 /* ThreeBaseCell.m */,
+				4E2264421C966B1800E3BD45 /* ThreeFirstCell.h */,
+				4E2264431C966B1800E3BD45 /* ThreeFirstCell.m */,
+				4E2264441C966B1800E3BD45 /* ThreeFourthCell.h */,
+				4E2264451C966B1800E3BD45 /* ThreeFourthCell.m */,
+				4E2264461C966B1800E3BD45 /* ThreeSecondCell.h */,
+				4E2264471C966B1800E3BD45 /* ThreeSecondCell.m */,
+				4E2264481C966B1800E3BD45 /* ThreeThirdCell.h */,
+				4E2264491C966B1800E3BD45 /* ThreeThirdCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E2264531C966BDB00E3BD45 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4E2264541C966BDB00E3BD45 /* PageControl */,
+				4E22645D1C966BDB00E3BD45 /* SDCollectionViewCell.h */,
+				4E22645E1C966BDB00E3BD45 /* SDCollectionViewCell.m */,
+				4E22645F1C966BDB00E3BD45 /* SDCycleScrollView.h */,
+				4E2264601C966BDB00E3BD45 /* SDCycleScrollView.m */,
+				4E2264611C966BDB00E3BD45 /* UIView+SDExtension.h */,
+				4E2264621C966BDB00E3BD45 /* UIView+SDExtension.m */,
+			);
+			name = SDCycleScrollView;
+			path = DAMEIJILIN/Classes/Lib/SDCycleScrollView;
+			sourceTree = SOURCE_ROOT;
+		};
+		4E2264541C966BDB00E3BD45 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4E2264551C966BDB00E3BD45 /* TAAbstractDotView.h */,
+				4E2264561C966BDB00E3BD45 /* TAAbstractDotView.m */,
+				4E2264571C966BDB00E3BD45 /* TAAnimatedDotView.h */,
+				4E2264581C966BDB00E3BD45 /* TAAnimatedDotView.m */,
+				4E2264591C966BDB00E3BD45 /* TADotView.h */,
+				4E22645A1C966BDB00E3BD45 /* TADotView.m */,
+				4E22645B1C966BDB00E3BD45 /* TAPageControl.h */,
+				4E22645C1C966BDB00E3BD45 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
 		};
 		FF280F737919FFFD7EBC5037 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -417,14 +570,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E22644A1C966B1800E3BD45 /* Ads.m in Sources */,
+				4E2264351C9667C400E3BD45 /* UIView+SDAutoLayout.m in Sources */,
+				4E22642E1C96678A00E3BD45 /* XYString.m in Sources */,
 				25AC88EF1C9585F6008414B9 /* DMAppFrameTabBarController.m in Sources */,
+				4E2264691C966BDB00E3BD45 /* UIView+SDExtension.m in Sources */,
 				25AC891A1C95B637008414B9 /* TestViewController_1.m in Sources */,
+				4E2264661C966BDB00E3BD45 /* TAPageControl.m in Sources */,
 				25AC88EB1C958585008414B9 /* main.m in Sources */,
+				4E2264501C966B1800E3BD45 /* ThreeFourthCell.m in Sources */,
+				4E2264341C9667C400E3BD45 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				25AC891D1C95B637008414B9 /* TestViewController_4.m in Sources */,
+				4E22644D1C966B1800E3BD45 /* ThreeModel.m in Sources */,
+				4E2264641C966BDB00E3BD45 /* TAAnimatedDotView.m in Sources */,
+				4E2264651C966BDB00E3BD45 /* TADotView.m in Sources */,
+				4E2264631C966BDB00E3BD45 /* TAAbstractDotView.m in Sources */,
 				25AC88E71C958585008414B9 /* AppDelegate.m in Sources */,
 				25AC88FA1C95B012008414B9 /* DMBaseNavigationController.m in Sources */,
 				25AC891C1C95B637008414B9 /* TestViewController_3.m in Sources */,
+				4E2264681C966BDB00E3BD45 /* SDCycleScrollView.m in Sources */,
 				25AC891B1C95B637008414B9 /* TestViewController_2.m in Sources */,
+				4E2264671C966BDB00E3BD45 /* SDCollectionViewCell.m in Sources */,
+				4E2264521C966B1800E3BD45 /* ThreeThirdCell.m in Sources */,
+				4E22644E1C966B1800E3BD45 /* ThreeBaseCell.m in Sources */,
+				4E22644F1C966B1800E3BD45 /* ThreeFirstCell.m in Sources */,
+				4E22644C1C966B1800E3BD45 /* Imgextra.m in Sources */,
+				4E2264511C966B1800E3BD45 /* ThreeSecondCell.m in Sources */,
+				4E22644B1C966B1800E3BD45 /* Editor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,8 +716,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B13DC53CD17D5EFAD7F5776A /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DAMEIJILIN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -558,8 +728,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54D5E8507FA78099AA975AFB /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DAMEIJILIN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
