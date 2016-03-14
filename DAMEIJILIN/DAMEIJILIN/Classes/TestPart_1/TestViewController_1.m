@@ -49,10 +49,6 @@
 
 #pragma mark - getter
 - (UITableView *)tv{
-    
-    /*
-     本demo由SDAutoLayout库的使用者“李西亚”提供，感谢“李西亚”对本库的关注与支持！
-     */
     if (!_tv) {
         
         _tv = [[UITableView alloc] initWithFrame:self.view.bounds];
@@ -60,13 +56,13 @@
         _tv.delegate = self;
         _tv.dataSource = self;
         
-        __weak typeof(self) weakSelf = self;
+        //__weak typeof(self) weakSelf = self;
         
         //..下拉刷新
         _tv.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-            weakSelf.myRefreshView = weakSelf.tv.mj_header;
-            weakSelf.page = 0;
-            [weakSelf loadData];
+            self.myRefreshView = self.tv.mj_header;
+            self.page = 0;
+            [self loadData];
         }];
         
         // 马上进入刷新状态
@@ -74,9 +70,9 @@
         
         //..上拉刷新
         _tv.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
-            weakSelf.myRefreshView = weakSelf.tv.mj_footer;
-            weakSelf.page = weakSelf.page + 10;
-            [weakSelf loadData];
+            self.myRefreshView = self.tv.mj_footer;
+            self.page = self.page + 10;
+            [self loadData];
         }];
         
         _tv.mj_footer.hidden = YES;
@@ -87,23 +83,28 @@
 }
 -(NSMutableArray *)listArry{
     
-    if (!_listArry) {
+    if (!_listArry)
+    {
         _listArry = [[NSMutableArray alloc] init];
     }
     return _listArry;
 }
 
 #pragma mark - 请求数据
--(void)loadData{
-    /*
-     本demo由SDAutoLayout库的使用者“李西亚”提供，感谢“李西亚”对本库的关注与支持！
-     */
+-(void)loadData
+{
     NSString * urlString = [NSString stringWithFormat:@"http://c.m.163.com/nc/article/%@/%ld-20.html",@"headline/T1348647853363",self.page];
-    NSLog(@"______%@",urlString);
+    
+    //urlString = @"http://c.m.163.com/nc/article/headline/T1348647853363/0-3.html";
+    
+    NSLog(@"post url:%@",urlString);
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager GET:urlString parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    
+    [manager GET:urlString parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject)
+    {
         
         NSDictionary *dict = [XYString getObjectFromJsonString:operation.responseString];
         //..keyEnumerator 获取字典里面所有键  objectEnumerator得到里面的对象  keyEnumerator得到里面的键值
@@ -134,23 +135,21 @@
 }
 
 #pragma mark -  回调刷新
--(void)doneWithView:(MJRefreshComponent*)refreshView{
+-(void)doneWithView:(MJRefreshComponent*)refreshView
+{
     [_tv reloadData];
     [_myRefreshView  endRefreshing];
 }
 
 
 #pragma mark - 表的协议方法
-
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
     return self.listArry.count;
 }
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    /*
-     本demo由SDAutoLayout库的使用者“李西亚”提供，感谢“李西亚”对本库的关注与支持！
-     */
+//设置cell内容
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     ThreeBaseCell * cell = nil;
     ThreeModel * threeModel = self.listArry[indexPath.row];
     
@@ -158,16 +157,17 @@
     Class mClass =  NSClassFromString(identifier);
     
     cell =  [tableView dequeueReusableCellWithIdentifier:identifier];
-    if (!cell) {
+    if (!cell)
+    {
         cell = [[mClass alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     cell.threeModel = threeModel;
-    return cell;
     
+    return cell;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     // cell自适应设置
     ThreeModel * threeModel = self.listArry[indexPath.row];
     
@@ -176,7 +176,6 @@
     
     // 返回计算出的cell高度（普通简化版方法，同样只需一步设置即可完成）
     return [self.tv cellHeightForIndexPath:indexPath model:threeModel keyPath:@"threeModel" cellClass:mClass contentViewWidth:[self cellContentViewWith]];
-    
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

@@ -20,7 +20,6 @@
     return  self;
 }
 
-
 -(void)setup{
     // 滚动图片区
     self.cycleScrollView = [[SDCycleScrollView alloc] init];

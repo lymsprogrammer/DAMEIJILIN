@@ -51,7 +51,6 @@
     .heightIs(1);
 
     [self setupAutoHeightWithBottomView:self.lineView bottomMargin:0];
-
 }
 
 -(void)setThreeModel:(ThreeModel *)threeModel{
