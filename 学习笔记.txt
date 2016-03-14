@@ -17,3 +17,8 @@ pod update --verbose --no-repo-update
 
 --注意事项
 http://www.cnblogs.com/wayne23/p/3912882.html
+
+========================================================================
+
+1, https://github.com/xjimi/MBProgressHUDManager.git
+https://github.com/Asich/AMTumblrHud.git	

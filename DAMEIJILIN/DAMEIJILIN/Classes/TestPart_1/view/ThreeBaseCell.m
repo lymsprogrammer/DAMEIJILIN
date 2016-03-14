@@ -15,13 +15,20 @@
 // 获取数据类型对应的cell
 +(NSString *)cellIdentifierForRow:(ThreeModel *)threeModel{
 
-    if (threeModel.hasHead){
+    if (threeModel.hasHead)
+    {
         return @"ThreeFourthCell";
-    }else if (threeModel.imgType){
+    }
+    else if (threeModel.imgType)
+    {
         return @"ThreeThirdCell";
-    }else if (threeModel.imgextra){
+    }
+    else if (threeModel.imgextra)
+    {
         return @"ThreeSecondCell";
-    }else{
+    }
+    else
+    {
         return @"ThreeFirstCell";
     }
  

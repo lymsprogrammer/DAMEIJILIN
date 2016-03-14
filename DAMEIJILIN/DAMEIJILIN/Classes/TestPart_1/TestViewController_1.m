@@ -20,8 +20,11 @@
 #import "ThreeThirdCell.h"
 #import "ThreeFourthCell.h"
 
+#import "ZFCWaveActivityIndicatorView.h"
 
-@interface TestViewController_1 () <UITableViewDelegate, UITableViewDataSource>
+
+@interface TestViewController_1 () <UITableViewDelegate,
+                                    UITableViewDataSource,ZFCWaveActivityIndicatorViewDelegate>
 
 @property(nonatomic ,strong) UITableView *tv;
 @property(nonatomic ,strong) NSMutableArray *listArry;
@@ -36,6 +39,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = YES;
@@ -147,12 +151,14 @@
     
     return self.listArry.count;
 }
+
 //设置cell内容
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ThreeBaseCell * cell = nil;
     ThreeModel * threeModel = self.listArry[indexPath.row];
     
+    //获取对应数据类型的cell
     NSString * identifier = [ThreeBaseCell cellIdentifierForRow:threeModel];
     Class mClass =  NSClassFromString(identifier);
     
@@ -178,8 +184,9 @@
     return [self.tv cellHeightForIndexPath:indexPath model:threeModel keyPath:@"threeModel" cellClass:mClass contentViewWidth:[self cellContentViewWith]];
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //[self showLoadingHUD];
 }
 
 
@@ -198,6 +205,20 @@
         width = [UIScreen mainScreen].bounds.size.height;
     }
     return width;
+}
+
+//显示loading动画
+-(void) showLoadingHUD
+{
+    ZFCWaveActivityIndicatorView *waveActivityIndicator = [[ZFCWaveActivityIndicatorView alloc] init];
+    waveActivityIndicator.center = CGPointMake(200, 200);
+    waveActivityIndicator.delegate = self;
+    [waveActivityIndicator startAnimating];
+    [self.view addSubview:waveActivityIndicator];
+ 
+    [NSTimer scheduledTimerWithTimeInterval:7 target:waveActivityIndicator selector:@selector(stopAnimating) userInfo:nil repeats:NO];
+    
+    [NSTimer scheduledTimerWithTimeInterval:9 target:waveActivityIndicator selector:@selector(startAnimating) userInfo:nil repeats:NO];
 }
 
 @end

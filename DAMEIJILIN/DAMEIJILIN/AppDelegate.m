@@ -55,14 +55,13 @@
 #pragma mark - setup
 - (void)setupNavBar
 {
-//    return;
-//    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackTranslucent;
-//    
-//    UINavigationBar *bar = [UINavigationBar appearance];
-//    CGFloat rgb = 0.4;
-//    bar.barTintColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:0.9];
-//    bar.tintColor = [UIColor blueColor];
-//    bar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor blueColor]};
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackTranslucent;
+    
+    UINavigationBar *bar = [UINavigationBar appearance];
+    CGFloat rgb = 1;
+    bar.barTintColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:0.9];
+    bar.tintColor = [UIColor blueColor];
+    bar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor blueColor]};
 }
 
 
