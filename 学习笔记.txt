@@ -5,10 +5,20 @@ $gem sources -l
 $gem sources --remove https://rubygems.org/
 
 --新增taobao实时镜像源头
-$gem sources -a https:ruby.taobao.org/
+gem sources --add https://ruby.taobao.org/
 
 --安装cocoapods
-sudo gem install cocoapods  
+sudo gem install cocoapods
+
+—安装或更新三方裤
+pod install --verbose --no-repo-update
+pod update --verbose --no-repo-update
+
 
 --注意事项
 http://www.cnblogs.com/wayne23/p/3912882.html
+
+========================================================================
+
+1, https://github.com/xjimi/MBProgressHUDManager.git
+https://github.com/Asich/AMTumblrHud.git	
